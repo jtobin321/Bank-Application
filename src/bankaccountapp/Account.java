@@ -15,7 +15,10 @@ public abstract class Account implements IBaseRate{
 		this.ssn = ssn;
 		balance = initDeposit;
 		
-		System.out.println("New Account Created!");
+		System.out.println("Welcome to Bank of Jack, " + name + "! Your new account has been created.");
+		System.out.println("Here's a little info to get you started:");
+		System.out.println("Account Type:");
+		
 	}
 	
 	// List common methods
